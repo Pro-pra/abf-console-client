@@ -1421,7 +1421,7 @@ def build(return_ids=False):
         if str(build_repositories[0]).find("rosa2019.05") >= 0:
             try_arches = ['x86_64', 'i686']
 
-        if str(build_repositories[0]).find("rosa2021.1"):
+        if str(build_repositories[0]).find("rosa2021.1") >= 0:
             try_arches = ['x86_64', 'aarch64', 'i686']
 
         if str(build_repositories[0]).find("rosa2023.1") >= 0 or str(build_repositories[0]).find("rosa13") >= 0:
